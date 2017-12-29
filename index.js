@@ -5,3 +5,5 @@ driver[key]=value;
 return driver;
 
 }
+driver.name = 'Sam';
+updateDriverWithKeyAndValue(driver,'address','11 Broadway')
