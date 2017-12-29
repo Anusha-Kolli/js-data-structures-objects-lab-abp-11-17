@@ -3,7 +3,6 @@ const driver = {};
 function updateDriverWithKeyAndValue(object,key,value){
 object[key]=value;
 return object;
-
 }
 driver.name = 'Sam';
 updateDriverWithKeyAndValue(driver,'address:','11 Broadway');
