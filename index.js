@@ -19,4 +19,4 @@ function deleteFromDriverByKey(driver,key){
   newObj;
   delete newObj[key];
 }
-deleteFromDriverByKey(driver,name);
+deleteFromDriverByKey(driver,'name');
