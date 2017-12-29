@@ -3,5 +3,5 @@ const driver = {};
 function updateDriverWithKeyAndValue(object,key,value){
 
  return Object.assign({}, obj, { [key]: value })
-
 }
+driver.name ='Sam';
