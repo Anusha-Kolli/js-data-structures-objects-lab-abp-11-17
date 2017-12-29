@@ -8,5 +8,6 @@ driver.name ='Sam';
 updateObjectWithKeyAndValue(driver, 'address:', '11 Broadway');
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
-  
+  driver[key]= value;
+  return driver;
 }
