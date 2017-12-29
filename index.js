@@ -5,3 +5,4 @@ function updateDriverWithKeyAndValue(object,key,value){
  return Object.assign({}, obj, { [key]: value })
 }
 driver.name ='Sam';
+updateObjectWithKeyAndValue(driver, 'address:', '11 Broadway');
