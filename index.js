@@ -11,3 +11,5 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
   driver[key]= value;
   return driver;
 }
+
+destructivelyUpdateObjectWithKeyAndValue(driver, 'address:', '12 Broadway');
