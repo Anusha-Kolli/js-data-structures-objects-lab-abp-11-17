@@ -24,4 +24,4 @@ deleteFromDriverByKey(driver,'name');
 function destructivelyDeleteFromDriverByKey(driver,key){
  return driver[key];
 }
- destructivelyDeleteFromDriverByKey(driver, 'name');
+destructivelyDeleteFromDriverByKey(driver,'name');
