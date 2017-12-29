@@ -6,4 +6,4 @@ return object;
 
 }
 driver.name = 'Sam';
-updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
+const object = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
